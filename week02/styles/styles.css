@@ -1,14 +1,21 @@
-/* General styles */
+/* General */
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Navigation */
-nav a {
-    margin-right: 10px;
+/* Navigation (REQUIRED FOR AUDIT) */
+nav {
+    background-color: #333;
+    padding: 10px;
 }
 
-/* Main section */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Main */
 main {
     max-width: 800px;
 }
@@ -24,7 +31,7 @@ p {
     padding: 0;
 }
 
-/* Aside section */
+/* Aside */
 aside {
     width: 300px;
     margin: 20px;
