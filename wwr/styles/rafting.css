@@ -47,20 +47,27 @@ header {
     grid-template-columns: 120px 1fr;
     align-items: center;
     background-color: var(--accent1-color);
+    padding: 10px;
+}
+
+header img {
+    width: 100px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: bold;
+    padding: 10px;
 }
 
-/* Hero */
+/* Hero Section */
 
 .hero {
     position: relative;
@@ -86,6 +93,8 @@ nav a {
 .hero article {
     position: absolute;
     bottom: 20px;
+    left: 20px;
+    right: 20px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -94,6 +103,19 @@ nav a {
     width: 125px;
     margin-left: 15px;
     border: 2px solid var(--secondary-color);
+    box-shadow: 0 0 10px gray;
+}
+
+/* Sections */
+
+section {
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* Footer */
@@ -102,13 +124,19 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
+    padding: 10px;
 }
 
 .socialmedia {
     display: flex;
     justify-content: center;
+    gap: 15px;
 }
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
 }
