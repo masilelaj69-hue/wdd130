@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="Contact White Water Rafting for reservations, questions, and adventure information.">
-    <meta name="author" content="Julia Masilela">
+
     <title>Contact Us | White Water Rafting</title>
+
+    <meta name="description"
+      content="Contact White Water Rafting for reservations, questions, trip information, and customer support.">
+
+    <meta name="author" content="Julia Masilela">
+
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -15,6 +19,7 @@
 
     <header>
         <img src="images/logo.png" alt="White Water Rafting Logo">
+
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -25,76 +30,64 @@
 
     <main>
 
-        <section class="contact-info">
-            <h1>Contact Us</h1>
+        <h1>White Water Rafting Contact Us</h1>
 
-            <p><strong>Address:</strong> 123 River Road, Adventure Valley, Idaho</p>
-            <p><strong>Phone:</strong> (208) 555-1234</p>
-            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086967475571!2d-122.4194156846816!3d37.77492977975974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064df8b6f75%3A0x6d9e6d9e6d9e6d9e!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1680000000000"
-              loading="lazy">
-            </iframe>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Address: 123 River Road, Idaho</p>
+            <p>Phone: (208) 555-1234</p>
+            <p>Email: info@whitewaterrafting.com</p>
         </section>
 
-        <section class="employees">
-            <h2>Meet Our Team</h2>
+        <section>
+            <h2>Our Team</h2>
 
             <figure>
-                <img src="images/employee1.jpg" alt="Sarah Johnson">
+                <img src="images/employee1.jpg" alt="Sarah Johnson, General Manager">
                 <figcaption>Sarah Johnson - General Manager</figcaption>
             </figure>
 
             <figure>
-                <img src="images/employee2.jpg" alt="Michael Smith">
-                <figcaption>Michael Smith - Lead River Guide</figcaption>
+                <img src="images/employee2.jpg" alt="Michael Smith, Lead Guide">
+                <figcaption>Michael Smith - Lead Guide</figcaption>
             </figure>
 
             <figure>
-                <img src="images/employee3.jpg" alt="Emma Davis">
-                <figcaption>Emma Davis - Reservation Specialist</figcaption>
+                <img src="images/employee3.jpg" alt="Emma Davis, Reservations Manager">
+                <figcaption>Emma Davis - Reservations Manager</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rafting1.jpg" alt="Rafting adventure group">
+                <figcaption>Adventure Team</figcaption>
             </figure>
         </section>
 
-        <section class="contact-form">
+        <section>
             <h2>Send Us a Message</h2>
 
             <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
 
-                <label for="fullname">Name</label>
-                <input type="text" id="fullname" name="fullname" required>
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
 
                 <p>Purpose of Message</p>
 
-                <label>
-                    <input type="radio" name="purpose" value="general" required>
-                    General Inquiry
-                </label>
-
-                <label>
-                    <input type="radio" name="purpose" value="reservation">
-                    Reservation Question
-                </label>
-
-                <label>
-                    <input type="radio" name="purpose" value="website">
-                    Website Suggestion
-                </label>
+                <label><input type="radio" name="purpose"> General Inquiry</label>
+                <label><input type="radio" name="purpose"> Reservation Question</label>
+                <label><input type="radio" name="purpose"> Website Suggestion</label>
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+                <textarea id="message"></textarea>
 
                 <label>
-                    <input type="checkbox" name="newsletter">
+                    <input type="checkbox">
                     Please subscribe me to the monthly newsletter
                 </label>
 
                 <button type="submit">Send Message</button>
-
             </form>
         </section>
 
@@ -102,6 +95,12 @@
 
     <footer>
         <p>&copy; 2026 White Water Rafting | Julia Masilela</p>
+
+        <nav>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://twitter.com">Twitter</a>
+        </nav>
     </footer>
 
 </body>
